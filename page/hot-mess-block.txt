@@ -62,7 +62,6 @@ font-family:var(--mono);font-size:16px;line-height:1.6;color:var(--ink);backgrou
 /* The quiet fixed line and the restless equation are explanatory web drawings. */
 .ckhm .two{display:grid;grid-template-columns:1fr 1fr;gap:8%;align-items:center}
 .ckhm .two .h{font-size:clamp(38px,4.5vw,64px)}
-.ckhm .pull{font:500 30px/1.15 var(--serif);max-width:26ch;color:var(--teal);border-left:2px solid var(--teal);padding-left:20px;margin:28px 0 0}
 .ckhm .duo{display:grid;grid-template-columns:1fr 1fr;gap:16px;align-items:start}
 .ckhm .duo figure:last-child{margin-top:52px}
 .ckhm .duo .glass{aspect-ratio:1/1.45}
@@ -233,8 +232,8 @@ font-family:var(--mono);font-size:16px;line-height:1.6;color:var(--ink);backgrou
 .ckhm .wm .word+.word::before{content:" "}.ckhm .heroSub{font-size:26px;margin-bottom:20px}.ckhm .pitch{font-size:14px;margin-bottom:22px}
 .ckhm .heroBuy{gap:22px}.ckhm .heroBuy .key{font-size:13px;min-height:48px}.ckhm .facts{font-size:10px;line-height:1.8}
 .ckhm .heroMain{gap:28px}.ckhm .heroImage{margin:0 -8px}.ckhm .heroImage figcaption{font-size:10px;padding:0 8px}.ckhm .heroImage figcaption span{max-width:24ch}
-.ckhm .heroIndex{gap:14px;flex-wrap:wrap;font-size:11px;margin-top:28px;padding-top:18px}.ckhm .heroIndex span:last-child{display:none}
-.ckhm .pull{font-size:28px}.ckhm .duo{gap:12px}.ckhm .duo .glass{aspect-ratio:.74}.ckhm .duo figure:last-child{margin-top:30px}.ckhm .duo figcaption b{font-size:26px}.ckhm .duo figcaption{font-size:11px}
+.ckhm .heroIndex{gap:14px;flex-wrap:wrap;font-size:11px;margin-top:28px;padding-top:18px}
+.ckhm .duo{gap:12px}.ckhm .duo .glass{aspect-ratio:.74}.ckhm .duo figure:last-child{margin-top:30px}.ckhm .duo figcaption b{font-size:26px}.ckhm .duo figcaption{font-size:11px}
 .ckhm .hz{margin-top:30px}.ckhm .hzTop{padding:18px 0;gap:18px}.ckhm .hzTop .row{gap:0;width:100%;justify-content:space-between}.ckhm .hzTop .row>.lab{width:100%;margin:0 0 12px}
 .ckhm .hzTop .key{min-width:0;padding:10px 12px}.ckhm .vol{width:100%}.ckhm .vol .lab{min-width:60px}
 .ckhm .hzGlass{aspect-ratio:1.4}.ckhm .gl{font-size:10px}.ckhm .gl.tl{left:14px;top:14px}.ckhm .gl.tr{left:14px;right:14px;top:34px;text-align:left}.ckhm .gl.bl{left:14px;bottom:14px;right:14px}
@@ -649,7 +648,7 @@ font-family:var(--mono);font-size:16px;line-height:1.6;color:var(--ink);backgrou
         <figcaption><span>Chua Growl / Linden mint</span><button type="button" class="zoomLink heroZoom">Enlarge</button><a class="seeFace" href="#hotmess-idea">Explore the display</a></figcaption>
       </figure>
     </div>
-    <div class="heroIndex"><span><b>20</b> equations</span><span><b>48</b> presets, sorted by job</span><span>VST3 / AU / standalone</span><span>Made by Clay and Kelsy</span></div>
+    <div class="heroIndex"><span><b>20</b> equations</span><span><b>48</b> presets, sorted by job</span><span>Made by Clay and Kelsy</span></div>
   </div></section>
 
   <section class="sec dk livingSection" id="hotmess-idea"><div class="wrap">
@@ -682,7 +681,7 @@ font-family:var(--mono);font-size:16px;line-height:1.6;color:var(--ink);backgrou
         </div>
       </div>
     </div>
-    <details class="mathDetails" id="hotmess-math"><summary>Explore all 20 equations <span>Drawings, formulas and sounds</span></summary>
+    <details class="mathDetails" id="hotmess-math"><summary>All 20 equations <span>Drawings, formulas and sounds</span></summary>
         <div class="rail">
       <div class="railIn" role="region" tabindex="0" aria-label="The twenty equations, a live drawing of each">
       <figure class="eqc" data-eq="14"><div class="glass"><canvas aria-hidden="true"></canvas></div><figcaption><h3>Lorenz Attractor</h3><div class="pj">Butterfly Effect &middot; synths and keys</div><div class="fx">&#7819; = &#963;(y &#8722; x), &#7823; = x(&#961; &#8722; z) &#8722; y, &#380; = xy &#8722; &#946;z</div><div class="why">Convection, weather, the butterfly.</div><a class="key s hear" href="#hotmess-presets" data-clip="eq14">Hear it</a></figcaption></figure>

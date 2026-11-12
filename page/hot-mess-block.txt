@@ -681,6 +681,9 @@ font-family:var(--mono);font-size:16px;line-height:1.6;color:var(--ink);backgrou
 @media(prefers-reduced-motion:reduce){.cki-purchase *{transition:none!important}}
 
 @media(max-width:380px){.cki-purchase .cki-purchase__price-row:has(.cki-purchase__was:not([hidden])) .cki-purchase__price-note{flex-basis:100%;margin-left:0}}
+
+/* Links inside the answers look like links (2026-11-12, Kelsy's newsletter link in Do I need an account?) */
+.ckhm #hotmess-questions .answers p a{color:var(--ink);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:4px}
 </style>
 
 <div class="ckhm isPrelaunch" itemscope itemtype="https://schema.org/Product">
@@ -842,11 +845,9 @@ font-family:var(--mono);font-size:16px;line-height:1.6;color:var(--ink);backgrou
 </div><div class="answers">
     <details itemscope itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Which DAWs does it work in?</summary><div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">It comes as VST3 and AU, and we&rsquo;ve tested it in Ableton Live.</p></div></details>
     <details itemscope itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Mac or Windows?</summary><div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Mac today, as a universal build: macOS 10.13 or later on Intel, and macOS 11 or later on Apple silicon.</p></div></details>
-    <details itemscope itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Does it add latency?</summary><div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Three samples, and Hot Mess reports them to your DAW. Inside, the dry and the wet stay lined up, so a parallel blend is flat within 0.02 dB at every frequency tested.</p></div></details>
     <details itemscope itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Is the plugin display really the equation?</summary><div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Yes. The plugin draws the same math and live values as its sound. The animated studies on this page illustrate textbook equations separately from the recorded audio demos.</p></div></details>
     <details itemscope itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">How does the license work?</summary><div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Your key comes by email. Paste it into Hot Mess, or drop the text file onto the license card. It&rsquo;s checked on your Mac and never sent anywhere.</p></div></details>
-    <details itemscope itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Do I need an account?</summary><div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">No. You check out as a guest.</p></div></details>
-    <details itemscope itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Wasn&rsquo;t this called Strange?</summary><div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">While we built it, yes. Then we turned Amount all the way up.</p></div></details>
+    <details itemscope itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Do I need an account?</summary><div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">No, you don&rsquo;t, but <a href="https://clayandkelsy.com/#ck-subscribe">sign up for our newsletter</a> to stay in the loop!</p></div></details>
     </div></div>
     <div class="foot">
       <span>Clay and Kelsy Instruments, our cute little software company. Built by the two of us in a home studio surrounded by trees.</span>

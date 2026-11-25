@@ -711,7 +711,7 @@ font-family:var(--mono);font-size:16px;line-height:1.6;color:var(--ink);backgrou
 .ckhm .factsList>div{display:grid;grid-template-columns:minmax(96px,150px) minmax(0,1fr);gap:24px;padding:16px 0;border-top:1px solid var(--hair)}
 .ckhm .factsList>div:last-child{border-bottom:1px solid var(--hair)}
 .ckhm .factsList dt{font:400 12px/1.7 var(--mono);color:var(--ink2);padding-top:3px}
-.ckhm .factsList dd{margin:0;font:500 20px/1.35 var(--serif);color:var(--ink)}
+.ckhm .factsList dd{margin:0;padding:0;font:500 20px/1.35 var(--serif);color:var(--ink)}
 @media(max-width:600px){.ckhm .factsList>div{grid-template-columns:minmax(0,1fr);gap:2px}.ckhm .factsList dd{font-size:19px}}
 </style>
 

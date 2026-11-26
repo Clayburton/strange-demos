@@ -738,6 +738,7 @@ font-family:var(--mono);font-size:16px;line-height:1.6;color:var(--ink);backgrou
         <p class="pitch">Warm saturation to full chaotic breakup. Twenty equations shape your sound, and the display draws them live.</p>
         <div class="heroBuy">
           <a class="key bake tick" href="#hotmess-buy" itemprop="url">Coming soon <span class="m">$39</span></a>
+          <a class="key heroDemo" href="https://clayandkelsy.com/go/hot-mess-download" data-demo>Free demo</a>
           <a class="textLink listenLink" href="#hotmess-presets">Hear it first &darr;</a>
         </div>
         <div class="facts"><span>Mac and Windows &middot; VST3 &middot; AU</span><span>License key by email</span></div>
@@ -843,15 +844,16 @@ font-family:var(--mono);font-size:16px;line-height:1.6;color:var(--ink);backgrou
       <div class="cki-purchase__price-row"><span class="cki-purchase__price">$39</span><span class="cki-purchase__cur">USD</span><s class="cki-purchase__was" hidden>$39</s></div>
       <p class="cki-purchase__once">One-time purchase</p>
       <p class="cki-purchase__compat">For Mac and Windows.<br>VST3 and AU on Mac, VST3 on Windows.</p>
-      <p class="cki-purchase__availability">Coming soon. Listen to the recordings while we finish.</p>
+      <p class="cki-purchase__availability">Coming soon. Hear the recordings or try the free demo.</p>
       <div class="cki-purchase__actions">
         <a class="cki-purchase__primary" href="#hotmess-presets">Hear Hot Mess</a>
-        
+        <a class="cki-purchase__trial" href="https://clayandkelsy.com/go/hot-mess-download" data-demo>Download the free demo</a>
       </div>
-      <p class="cki-purchase__delivery">Download and license key available at launch.</p>
+      <p class="cki-purchase__demo-alt"><a href="https://clayandkelsy.com/go/hot-mess-download-windows" data-demo-alt>Download for Windows instead</a></p>
+      <p class="cki-purchase__delivery">License key available at launch.</p>
       <div class="cki-purchase__details">
         <details><summary>Will it work in my setup?</summary><div><p>Hot Mess is for Mac, with native builds for Apple silicon and Intel, and for Windows 10 or later (64-bit). Use VST3 or AU on Mac, VST3 on Windows.</p><p><a href="#hotmess-faq">See system requirements and DAW details</a></p></div></details>
-        <details><summary>How does the demo work?</summary><div><p>The demo is the full plugin. The sound dips for about a second every 45 seconds until you enter your license key. The download will be available at launch.</p></div></details>
+        <details><summary>How does the demo work?</summary><div><p>The demo is the full plugin. The sound dips for about a second every 45 seconds until you enter your license key.</p></div></details>
         <details><summary>Delivery and license</summary><div><p>At launch, your purchase includes a download and a license key by email. The Mac installer is signed and notarized. Your key is checked on your computer, offline.</p><p><a href="https://clayandkelsy.com/refund_returns/">Read the license and refund policy</a></p></div></details>
       </div>
       <p class="cki-purchase__more">More questions? <a href="#hotmess-faq">Read the FAQ</a></p>
@@ -873,7 +875,7 @@ font-family:var(--mono);font-size:16px;line-height:1.6;color:var(--ink);backgrou
     <div id="hotmess-questions" itemscope itemtype="https://schema.org/FAQPage"><div class="answers">
     <details itemscope itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Which DAWs does it work in?</summary><div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">It comes as VST3 and AU on Mac, and VST3 on Windows. We&rsquo;ve tested it in Ableton Live on Mac and REAPER on Windows.</p></div></details>
     <details itemscope itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Mac or Windows?</summary><div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Both. On Mac it&rsquo;s a universal build: macOS 10.13 or later on Intel, and macOS 11 or later on Apple silicon. On Windows it needs Windows 10 or later, 64-bit.</p></div></details>
-    <details itemscope itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Is there a free demo?</summary><div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Yes. The demo is the full plugin. The sound dips for about a second every 45 seconds until you enter your license key. The download will be available at launch.</p></div></details>
+    <details itemscope itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Is there a free demo?</summary><div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Yes. The demo is the full plugin. The sound dips for about a second every 45 seconds until you enter your license key.</p></div></details>
     <details itemscope itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Is the plugin display really the equation?</summary><div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Yes. The plugin draws the same math and live values as its sound. The animated studies on this page illustrate textbook equations separately from the recorded audio demos.</p></div></details>
     <details itemscope itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">How does the license work?</summary><div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">Your key comes by email. Paste it into Hot Mess, or drop the text file onto the license card. It&rsquo;s checked on your computer and never sent anywhere.</p></div></details>
     <details itemscope itemprop="mainEntity" itemtype="https://schema.org/Question"><summary itemprop="name">Do I need an account?</summary><div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer"><p itemprop="text">No, you don&rsquo;t, but <a href="https://clayandkelsy.com/#ck-subscribe">sign up for our newsletter</a> to stay in the loop!</p></div></details>
@@ -885,7 +887,7 @@ font-family:var(--mono);font-size:16px;line-height:1.6;color:var(--ink);backgrou
       <div><dt>Mac</dt><dd>macOS 10.13 or later on Intel, macOS 11 or later on Apple silicon. Tested in Ableton Live.</dd></div>
       <div><dt>Windows</dt><dd>Windows 10 or later, 64-bit. Tested in REAPER.</dd></div>
       <div><dt>Price</dt><dd><span class="factsPrice">$39</span>, a one-time purchase.</dd></div>
-      <div><dt>Free demo</dt><dd>The demo is the full plugin. The sound dips for about a second every 45 seconds until you enter your license key. The download will be available at launch.</dd></div>
+      <div><dt>Free demo</dt><dd>The demo is the full plugin. The sound dips for about a second every 45 seconds until you enter your license key.</dd></div>
       <div><dt>License</dt><dd>Your key comes by email and is checked on your computer. No account needed.</dd></div>
       <div><dt>Made by</dt><dd>Clay and Kelsy Instruments.</dd></div>
     </dl>
